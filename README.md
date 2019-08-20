@@ -1,10 +1,10 @@
-# psi [![Build Status](https://travis-ci.org/addyosmani/psi.svg?branch=master)](https://travis-ci.org/addyosmani/psi)
+# psi
 
 > PageSpeed Insights with reporting
 
 ![](screenshot.png)
 
-Run mobile and desktop performance tests for your deployed site using [Google PageSpeed Insights v4](https://developers.google.com/speed/docs/insights/v4/about) with tidy reporting for your build process.
+Run mobile and desktop performance tests for your deployed site using [Google PageSpeed Insights v5](https://developers.google.com/speed/docs/insights/v5/about) with tidy reporting for your build process.
 
 
 ## Install
@@ -15,7 +15,7 @@ $ npm install psi
 
 
 ## Usage
-
+<!-- 
 ```js
 const psi = require('psi');
 
@@ -37,10 +37,7 @@ const psi = require('psi');
   console.log('Speed score:', data.ruleGroups.SPEED.score);
   console.log('Usability score:', data.ruleGroups.USABILITY.score);
 })();
-```
-
-As of PSI 2.x, we expose both the PageSpeed Insights speed and usability scores. The latter is based on [usability rules](https://developers.google.com/speed/docs/insights/rules) that score a page based on factors like the presence of a sensible mobile [viewport](https://developers.google.com/speed/docs/insights/ConfigureViewport).
-
+``` -->
 
 ## API
 
