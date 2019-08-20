@@ -4,7 +4,7 @@ const prependHttp = require('prepend-http');
 const pify = require('pify');
 const output = require('./lib/output');
 
-const pagespeed = pify(googleapis.google.pagespeedonline('v4').pagespeedapi);
+const pagespeed = pify(googleapis.google.pagespeedonline('v5').pagespeedapi);
 
 function handleOpts(url, options) {
   options = Object.assign({strategy: 'mobile'}, options);
